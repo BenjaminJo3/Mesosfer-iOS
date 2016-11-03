@@ -1,0 +1,6 @@
+framework module Mesosfer {
+  umbrella header "Mesosfer.h"
+
+  export *
+  module * { export * }
+}
