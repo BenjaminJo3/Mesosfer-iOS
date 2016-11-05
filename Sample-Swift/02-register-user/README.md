@@ -1,4 +1,4 @@
-# Mesosfer Starter Project for Android #
+# Mesosfer Starter Project for iOS #
 
 
 A Framework that gives you access to the powerful Mesosfer cloud platform from your iOS app. 
