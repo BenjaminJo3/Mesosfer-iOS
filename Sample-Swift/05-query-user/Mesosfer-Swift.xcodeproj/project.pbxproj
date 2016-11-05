@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441B711B1DCAF4B9004015F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B711A1DCAF4B9004015F2 /* AppDelegate.swift */; };
+		441B711D1DCAF4B9004015F2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B711C1DCAF4B9004015F2 /* SplashViewController.swift */; };
+		441B71201DCAF4B9004015F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B711E1DCAF4B9004015F2 /* Main.storyboard */; };
+		441B71221DCAF4B9004015F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441B71211DCAF4B9004015F2 /* Assets.xcassets */; };
+		441B71251DCAF4B9004015F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B71231DCAF4B9004015F2 /* LaunchScreen.storyboard */; };
+		441B712E1DCAF4EF004015F2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B712D1DCAF4EF004015F2 /* AudioToolbox.framework */; };
+		441B71301DCAF4F6004015F2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B712F1DCAF4F6004015F2 /* CFNetwork.framework */; };
+		441B71321DCAF4FC004015F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B71311DCAF4FC004015F2 /* CoreGraphics.framework */; };
+		441B71341DCAF503004015F2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B71331DCAF503004015F2 /* CoreLocation.framework */; };
+		441B71361DCAF50B004015F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B71351DCAF50B004015F2 /* QuartzCore.framework */; };
+		441B71381DCAF513004015F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B71371DCAF513004015F2 /* Security.framework */; };
+		441B713C1DCAF521004015F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B713B1DCAF521004015F2 /* SystemConfiguration.framework */; };
+		441B713E1DCAF529004015F2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B713D1DCAF529004015F2 /* libsqlite3.0.tbd */; };
+		441B71531DCAFE00004015F2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B71521DCAFE00004015F2 /* RegisterViewController.swift */; };
+		441B71551DCB07E7004015F2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B71541DCB07E7004015F2 /* Extension.swift */; };
+		441B715F1DCB17D0004015F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B715E1DCB17D0004015F2 /* LoginViewController.swift */; };
+		443EAAB41DCC6E09006B3CBB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443EAAB31DCC6E09006B3CBB /* ProfileViewController.swift */; };
+		443EAAB61DCCF534006B3CBB /* QueryUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443EAAB51DCCF534006B3CBB /* QueryUserViewController.swift */; };
+		44B15E1A1DCB36A200B64849 /* Mesosfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B15E181DCB369C00B64849 /* Mesosfer.framework */; };
+		44B15E1B1DCB36A200B64849 /* Mesosfer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44B15E181DCB369C00B64849 /* Mesosfer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44B15E1D1DCB393500B64849 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B15E1C1DCB393500B64849 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4436697D1DCB2D27001103FC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44B15E1B1DCB36A200B64849 /* Mesosfer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		441B71171DCAF4B9004015F2 /* Mesosfer-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mesosfer-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		441B711A1DCAF4B9004015F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		441B711C1DCAF4B9004015F2 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		441B711F1DCAF4B9004015F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		441B71211DCAF4B9004015F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		441B71241DCAF4B9004015F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		441B71261DCAF4B9004015F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441B712D1DCAF4EF004015F2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		441B712F1DCAF4F6004015F2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		441B71311DCAF4FC004015F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		441B71331DCAF503004015F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		441B71351DCAF50B004015F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		441B71371DCAF513004015F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		441B713B1DCAF521004015F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		441B713D1DCAF529004015F2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		441B71521DCAFE00004015F2 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		441B71541DCB07E7004015F2 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		441B715C1DCB122D004015F2 /* Mesosfer-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mesosfer-Swift.entitlements"; sourceTree = "<group>"; };
+		441B715E1DCB17D0004015F2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		443EAAB31DCC6E09006B3CBB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		443EAAB51DCCF534006B3CBB /* QueryUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryUserViewController.swift; sourceTree = "<group>"; };
+		44B15E181DCB369C00B64849 /* Mesosfer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mesosfer.framework; sourceTree = "<group>"; };
+		44B15E1C1DCB393500B64849 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		441B71141DCAF4B9004015F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B15E1A1DCB36A200B64849 /* Mesosfer.framework in Frameworks */,
+				441B713E1DCAF529004015F2 /* libsqlite3.0.tbd in Frameworks */,
+				441B713C1DCAF521004015F2 /* SystemConfiguration.framework in Frameworks */,
+				441B71381DCAF513004015F2 /* Security.framework in Frameworks */,
+				441B71361DCAF50B004015F2 /* QuartzCore.framework in Frameworks */,
+				441B71341DCAF503004015F2 /* CoreLocation.framework in Frameworks */,
+				441B71321DCAF4FC004015F2 /* CoreGraphics.framework in Frameworks */,
+				441B71301DCAF4F6004015F2 /* CFNetwork.framework in Frameworks */,
+				441B712E1DCAF4EF004015F2 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441B710E1DCAF4B9004015F2 = {
+			isa = PBXGroup;
+			children = (
+				441B71191DCAF4B9004015F2 /* Mesosfer-Swift */,
+				441B71181DCAF4B9004015F2 /* Products */,
+				441B712C1DCAF4EF004015F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		441B71181DCAF4B9004015F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				441B71171DCAF4B9004015F2 /* Mesosfer-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		441B71191DCAF4B9004015F2 /* Mesosfer-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				441B715C1DCB122D004015F2 /* Mesosfer-Swift.entitlements */,
+				441B711A1DCAF4B9004015F2 /* AppDelegate.swift */,
+				441B71541DCB07E7004015F2 /* Extension.swift */,
+				441B715E1DCB17D0004015F2 /* LoginViewController.swift */,
+				44B15E1C1DCB393500B64849 /* MainViewController.swift */,
+				443EAAB31DCC6E09006B3CBB /* ProfileViewController.swift */,
+				443EAAB51DCCF534006B3CBB /* QueryUserViewController.swift */,
+				441B71521DCAFE00004015F2 /* RegisterViewController.swift */,
+				441B711C1DCAF4B9004015F2 /* SplashViewController.swift */,
+				441B711E1DCAF4B9004015F2 /* Main.storyboard */,
+				441B71211DCAF4B9004015F2 /* Assets.xcassets */,
+				441B71231DCAF4B9004015F2 /* LaunchScreen.storyboard */,
+				441B71261DCAF4B9004015F2 /* Info.plist */,
+			);
+			path = "Mesosfer-Swift";
+			sourceTree = "<group>";
+		};
+		441B712C1DCAF4EF004015F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B15E181DCB369C00B64849 /* Mesosfer.framework */,
+				441B713D1DCAF529004015F2 /* libsqlite3.0.tbd */,
+				441B713B1DCAF521004015F2 /* SystemConfiguration.framework */,
+				441B71371DCAF513004015F2 /* Security.framework */,
+				441B71351DCAF50B004015F2 /* QuartzCore.framework */,
+				441B71331DCAF503004015F2 /* CoreLocation.framework */,
+				441B71311DCAF4FC004015F2 /* CoreGraphics.framework */,
+				441B712F1DCAF4F6004015F2 /* CFNetwork.framework */,
+				441B712D1DCAF4EF004015F2 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		441B71161DCAF4B9004015F2 /* Mesosfer-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441B71291DCAF4B9004015F2 /* Build configuration list for PBXNativeTarget "Mesosfer-Swift" */;
+			buildPhases = (
+				441B71131DCAF4B9004015F2 /* Sources */,
+				441B71141DCAF4B9004015F2 /* Frameworks */,
+				441B71151DCAF4B9004015F2 /* Resources */,
+				4436697D1DCB2D27001103FC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mesosfer-Swift";
+			productName = "Mesosfer-Swift";
+			productReference = 441B71171DCAF4B9004015F2 /* Mesosfer-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		441B710F1DCAF4B9004015F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Eyro Labs";
+				TargetAttributes = {
+					441B71161DCAF4B9004015F2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UFZ2D5H3W9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 441B71121DCAF4B9004015F2 /* Build configuration list for PBXProject "Mesosfer-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 441B710E1DCAF4B9004015F2;
+			productRefGroup = 441B71181DCAF4B9004015F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				441B71161DCAF4B9004015F2 /* Mesosfer-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		441B71151DCAF4B9004015F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B71251DCAF4B9004015F2 /* LaunchScreen.storyboard in Resources */,
+				441B71221DCAF4B9004015F2 /* Assets.xcassets in Resources */,
+				441B71201DCAF4B9004015F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		441B71131DCAF4B9004015F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B71531DCAFE00004015F2 /* RegisterViewController.swift in Sources */,
+				441B711D1DCAF4B9004015F2 /* SplashViewController.swift in Sources */,
+				441B711B1DCAF4B9004015F2 /* AppDelegate.swift in Sources */,
+				44B15E1D1DCB393500B64849 /* MainViewController.swift in Sources */,
+				443EAAB61DCCF534006B3CBB /* QueryUserViewController.swift in Sources */,
+				443EAAB41DCC6E09006B3CBB /* ProfileViewController.swift in Sources */,
+				441B715F1DCB17D0004015F2 /* LoginViewController.swift in Sources */,
+				441B71551DCB07E7004015F2 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		441B711E1DCAF4B9004015F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441B711F1DCAF4B9004015F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		441B71231DCAF4B9004015F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441B71241DCAF4B9004015F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		441B71271DCAF4B9004015F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		441B71281DCAF4B9004015F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		441B712A1DCAF4B9004015F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mesosfer-Swift/Mesosfer-Swift.entitlements";
+				DEVELOPMENT_TEAM = UFZ2D5H3W9;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Framework,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Mesosfer-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyro.Mesosfer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		441B712B1DCAF4B9004015F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mesosfer-Swift/Mesosfer-Swift.entitlements";
+				DEVELOPMENT_TEAM = UFZ2D5H3W9;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Framework,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Mesosfer-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyro.Mesosfer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		441B71121DCAF4B9004015F2 /* Build configuration list for PBXProject "Mesosfer-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441B71271DCAF4B9004015F2 /* Debug */,
+				441B71281DCAF4B9004015F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441B71291DCAF4B9004015F2 /* Build configuration list for PBXNativeTarget "Mesosfer-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441B712A1DCAF4B9004015F2 /* Debug */,
+				441B712B1DCAF4B9004015F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 441B710F1DCAF4B9004015F2 /* Project object */;
+}

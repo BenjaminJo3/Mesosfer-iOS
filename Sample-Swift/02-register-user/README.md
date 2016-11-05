@@ -1,0 +1,52 @@
+# Mesosfer Starter Project for iOS #
+
+
+A Framework that gives you access to the powerful Mesosfer cloud platform from your iOS app. 
+For more information about Mesosfer and its features, see [Mesosfer Website][mesosfer.com] and [Mesosfer Documentations][docs].
+
+## Register User
+The first thing your app will do is probably ask the user to register. The following code illustrates a typical register:
+
+```swift
+// create new instance of Mesosfer User
+let user = MFUser()
+
+// set default field
+user.email = "user.one@mesosfer.com"
+user.password = "user1234"
+user.firstname = "User"
+user.lastname = "One"
+
+// set custom field
+user["dateOfBirth"] = NSDate()
+user["height"] = 177.5
+user["weight"] = 78
+user["isMarried"] = true
+user["myObject"] = [String:AnyObject]()
+user["myArray"] = [[String:AnyObject]]()
+
+// execute register user asynchronous
+user.registerAsync { (succeeded, error) in
+    if succeeded {
+        // register succeeded
+    } else {
+        // register failed, show error message
+    }
+}
+```
+
+This call will `asynchronously` create a new user in your Mesosfer App. Before it does this, it checks to make sure that the `email` are unique. Also, it securely hashes the `password` in the cloud using bcrypt. We never store passwords in plaintext, nor will we ever transmit passwords back to the client in plaintext.
+
+If a register isn’t successful, you should read the `NSError` that is returned. The most likely case is that the `email` has already been taken by another user. You should clearly communicate this to your users, and ask them try a different `email`.
+
+## License
+    Copyright (c) 2016, Mesosfer.
+    All rights reserved.
+
+    This source code is licensed under the BSD-style license found in the
+    LICENSE file in the root directory of this source tree.
+
+[mesosfer.com]:https://mesosfer.com
+[docs]:https://docs.mesosfer.com/
+[cloud]:https://cloud.mesosfer.com/
+[framework]:https://github.com/mesosfer/Mesosfer-Android/releases/latest
