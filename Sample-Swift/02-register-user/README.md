@@ -49,4 +49,4 @@ If a register isn’t successful, you should read the `NSError` that is returned
 [mesosfer.com]:https://mesosfer.com
 [docs]:https://docs.mesosfer.com/
 [cloud]:https://cloud.mesosfer.com/
-[framework]:https://github.com/mesosfer/Mesosfer-Android/releases/latest
+[framework]:https://github.com/mesosfer/Mesosfer-iOS/releases/latest
