@@ -25,7 +25,7 @@ This will automatically update `currentUser` with the latest data from cloud.
 After logged in, you can update your data that stored in cloud using method `saveAsync`.
 
 ```swift
-let user = MFUser()
+let user = MFUser.currentUser()
 
 // set default field
 user.firstname = "Updated firstname"

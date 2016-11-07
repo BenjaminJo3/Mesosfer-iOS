@@ -20,7 +20,7 @@ if let user = MFUser.currentUser() {
 After you allow users to register, you need be able to let them login to their account in the future. To do this, you can use the class method `logInAsync`.
 
 ```swift
-MFUser.logInAsync(withEmail: "myUsername", 
+MFUser.logInAsync(withEmail: "username@mail.com", 
                    password: "myPlainPassword") { (user, error) in
     if let e = error as? NSError {
         // error happen, show error message

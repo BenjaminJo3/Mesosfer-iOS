@@ -1,10 +1,10 @@
-//
-//  Extension.swift
-//  Mesosfer-Swift
-//
-//  Created by Eyro Labs on 11/3/16.
-//  Copyright © 2016 Eyro Labs. All rights reserved.
-//
+/**
+ * Copyright (c) 2016, Mesosfer
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
 import Foundation
 import UIKit

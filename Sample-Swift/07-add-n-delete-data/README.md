@@ -10,7 +10,13 @@ Storing data on Mesosfer is built around the `MFData`. Each `MFData` contains ke
 For example, let's say you're set a Beacon parameters. A single `MFData` could contain :
 
 ```json
-"isActive":true, "major":1, "name":"Beacon One", "minor":284, "proximityUUID":"CB10023F-A318-3394-4199-A8730C7C1AEC"
+{
+    "isActive":true, 
+    "major":1, 
+    "name":"Beacon One", 
+    "minor":284, 
+    "proximityUUID":"CB10023F-A318-3394-4199-A8730C7C1AEC"
+}
 ```
 
 Keys must be alphanumeric strings. Values can be `String`s, `Number`s, `Date`s, `Boolean`s, or even `Array`s and `Object`s - anything that can be JSON-encoded.

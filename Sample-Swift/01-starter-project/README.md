@@ -7,7 +7,8 @@ For more information about Mesosfer and its features, see [Mesosfer Website][mes
 ## Download
 1. Download the latest Mesosfer framework [here][framework].
 2. Then drag `Mesosfer.framework` into the `Frameworks` sections in your XCode project.
-3. Ensure the following frameworks and a library exist in your project :
+3. Import module using `import Mesosfer`
+4. Ensure the following frameworks and a library exist in your project :
     - `SystemConfiguration.framework`
     - `Security.framework`
     - `QuartzCore.framework`
@@ -20,7 +21,7 @@ For more information about Mesosfer and its features, see [Mesosfer Website][mes
 ## Setup
 1. Register first to [Mesosfer Cloud][cloud]
 2. Create an application to get `applicationId` and `clientKey`
-3. Add this line below to your `Application` class to initialize Mesosfer SDK
+3. Add this line below to your `AppDelegate` class within `application:didFinishLaunchingWithOptions:` method to initialize Mesosfer SDK
 
 ```swift
 Mesosfer.initialize(withApplicationId: "YOUR-APPLICATION-ID", 

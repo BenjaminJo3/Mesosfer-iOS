@@ -6,7 +6,7 @@ For more information about Mesosfer and its features, see [Mesosfer Website][mes
 
 ## Basic Query User
 In many cases, there is a condition that need to specify which users you want to retrieve. The `MFQuery` offers different ways to retrieve a list of users. 
-The general pattern is to create a `MFQuery `, put conditions on it, and then retrieve an `Array` of matching `MFUser`s using the `findAsync` method with a `MFArrayResultBlock`. For example, to retrieve users with a firstname, use the `whereKey:equalTo:` method to constrain the value for a key:
+The general pattern is to create a `MFQuery`, put conditions on it, and then retrieve an `Array` of matching `MFUser`s using the `findAsync` method with a `MFArrayResultBlock`. For example, to retrieve users with a firstname, use the `whereKey:equalTo:` method to constrain the value for a key:
 
 ```swift
 let query = MFUser.query()
