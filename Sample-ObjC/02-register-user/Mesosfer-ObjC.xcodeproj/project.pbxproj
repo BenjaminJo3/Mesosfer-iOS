@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44992A6A1DCF346C00F3DDD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44992A691DCF346C00F3DDD9 /* main.m */; };
+		44992A6D1DCF346C00F3DDD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44992A6C1DCF346C00F3DDD9 /* AppDelegate.m */; };
+		44992A701DCF346C00F3DDD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44992A6F1DCF346C00F3DDD9 /* ViewController.m */; };
+		44992A731DCF346C00F3DDD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44992A711DCF346C00F3DDD9 /* Main.storyboard */; };
+		44992A751DCF346C00F3DDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44992A741DCF346C00F3DDD9 /* Assets.xcassets */; };
+		44992A781DCF346C00F3DDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44992A761DCF346C00F3DDD9 /* LaunchScreen.storyboard */; };
+		44992A811DCF34D500F3DDD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A801DCF34D500F3DDD9 /* AudioToolbox.framework */; };
+		44992A831DCF34E600F3DDD9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A821DCF34E600F3DDD9 /* CFNetwork.framework */; };
+		44992A851DCF34EF00F3DDD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A841DCF34EF00F3DDD9 /* CoreGraphics.framework */; };
+		44992A871DCF34F700F3DDD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A861DCF34F700F3DDD9 /* CoreLocation.framework */; };
+		44992A891DCF350400F3DDD9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A881DCF350400F3DDD9 /* QuartzCore.framework */; };
+		44992A8B1DCF350C00F3DDD9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A8A1DCF350C00F3DDD9 /* Security.framework */; };
+		44992A8D1DCF351600F3DDD9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A8C1DCF351600F3DDD9 /* SystemConfiguration.framework */; };
+		44992A8F1DCF351F00F3DDD9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A8E1DCF351F00F3DDD9 /* libsqlite3.0.tbd */; };
+		44992A911DCF352E00F3DDD9 /* Mesosfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A901DCF352E00F3DDD9 /* Mesosfer.framework */; };
+		44992A931DCF353700F3DDD9 /* Mesosfer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44992A901DCF352E00F3DDD9 /* Mesosfer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44992A971DCF385600F3DDD9 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44992A961DCF385600F3DDD9 /* UIViewController+Helper.m */; };
+		44992A9A1DCF3AEE00F3DDD9 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44992A991DCF3AEE00F3DDD9 /* RegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44992A941DCF353700F3DDD9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44992A931DCF353700F3DDD9 /* Mesosfer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44992A651DCF346C00F3DDD9 /* Mesosfer-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mesosfer-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44992A691DCF346C00F3DDD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44992A6B1DCF346C00F3DDD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44992A6C1DCF346C00F3DDD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44992A6E1DCF346C00F3DDD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44992A6F1DCF346C00F3DDD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44992A721DCF346C00F3DDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44992A741DCF346C00F3DDD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44992A771DCF346C00F3DDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44992A791DCF346C00F3DDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44992A801DCF34D500F3DDD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		44992A821DCF34E600F3DDD9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		44992A841DCF34EF00F3DDD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44992A861DCF34F700F3DDD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		44992A881DCF350400F3DDD9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44992A8A1DCF350C00F3DDD9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44992A8C1DCF351600F3DDD9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		44992A8E1DCF351F00F3DDD9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		44992A901DCF352E00F3DDD9 /* Mesosfer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mesosfer.framework; sourceTree = "<group>"; };
+		44992A951DCF385600F3DDD9 /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		44992A961DCF385600F3DDD9 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		44992A981DCF3AEE00F3DDD9 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		44992A991DCF3AEE00F3DDD9 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		44992A9B1DCF422B00F3DDD9 /* Mesosfer-ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mesosfer-ObjC.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44992A621DCF346C00F3DDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44992A911DCF352E00F3DDD9 /* Mesosfer.framework in Frameworks */,
+				44992A8F1DCF351F00F3DDD9 /* libsqlite3.0.tbd in Frameworks */,
+				44992A8D1DCF351600F3DDD9 /* SystemConfiguration.framework in Frameworks */,
+				44992A8B1DCF350C00F3DDD9 /* Security.framework in Frameworks */,
+				44992A891DCF350400F3DDD9 /* QuartzCore.framework in Frameworks */,
+				44992A871DCF34F700F3DDD9 /* CoreLocation.framework in Frameworks */,
+				44992A851DCF34EF00F3DDD9 /* CoreGraphics.framework in Frameworks */,
+				44992A831DCF34E600F3DDD9 /* CFNetwork.framework in Frameworks */,
+				44992A811DCF34D500F3DDD9 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44992A5C1DCF346B00F3DDD9 = {
+			isa = PBXGroup;
+			children = (
+				44992A671DCF346C00F3DDD9 /* Mesosfer-ObjC */,
+				44992A661DCF346C00F3DDD9 /* Products */,
+				44992A7F1DCF34D500F3DDD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44992A661DCF346C00F3DDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44992A651DCF346C00F3DDD9 /* Mesosfer-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44992A671DCF346C00F3DDD9 /* Mesosfer-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				44992A9B1DCF422B00F3DDD9 /* Mesosfer-ObjC.entitlements */,
+				44992A6B1DCF346C00F3DDD9 /* AppDelegate.h */,
+				44992A6C1DCF346C00F3DDD9 /* AppDelegate.m */,
+				44992A741DCF346C00F3DDD9 /* Assets.xcassets */,
+				44992A791DCF346C00F3DDD9 /* Info.plist */,
+				44992A761DCF346C00F3DDD9 /* LaunchScreen.storyboard */,
+				44992A711DCF346C00F3DDD9 /* Main.storyboard */,
+				44992A981DCF3AEE00F3DDD9 /* RegisterViewController.h */,
+				44992A991DCF3AEE00F3DDD9 /* RegisterViewController.m */,
+				44992A681DCF346C00F3DDD9 /* Supporting Files */,
+				44992A951DCF385600F3DDD9 /* UIViewController+Helper.h */,
+				44992A961DCF385600F3DDD9 /* UIViewController+Helper.m */,
+				44992A6E1DCF346C00F3DDD9 /* ViewController.h */,
+				44992A6F1DCF346C00F3DDD9 /* ViewController.m */,
+			);
+			path = "Mesosfer-ObjC";
+			sourceTree = "<group>";
+		};
+		44992A681DCF346C00F3DDD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44992A691DCF346C00F3DDD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44992A7F1DCF34D500F3DDD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44992A901DCF352E00F3DDD9 /* Mesosfer.framework */,
+				44992A8E1DCF351F00F3DDD9 /* libsqlite3.0.tbd */,
+				44992A8C1DCF351600F3DDD9 /* SystemConfiguration.framework */,
+				44992A8A1DCF350C00F3DDD9 /* Security.framework */,
+				44992A881DCF350400F3DDD9 /* QuartzCore.framework */,
+				44992A861DCF34F700F3DDD9 /* CoreLocation.framework */,
+				44992A841DCF34EF00F3DDD9 /* CoreGraphics.framework */,
+				44992A821DCF34E600F3DDD9 /* CFNetwork.framework */,
+				44992A801DCF34D500F3DDD9 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44992A641DCF346C00F3DDD9 /* Mesosfer-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44992A7C1DCF346C00F3DDD9 /* Build configuration list for PBXNativeTarget "Mesosfer-ObjC" */;
+			buildPhases = (
+				44992A611DCF346C00F3DDD9 /* Sources */,
+				44992A621DCF346C00F3DDD9 /* Frameworks */,
+				44992A631DCF346C00F3DDD9 /* Resources */,
+				44992A941DCF353700F3DDD9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mesosfer-ObjC";
+			productName = "Mesosfer-ObjC";
+			productReference = 44992A651DCF346C00F3DDD9 /* Mesosfer-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44992A5D1DCF346C00F3DDD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Eyro Labs";
+				TargetAttributes = {
+					44992A641DCF346C00F3DDD9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UFZ2D5H3W9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 44992A601DCF346C00F3DDD9 /* Build configuration list for PBXProject "Mesosfer-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44992A5C1DCF346B00F3DDD9;
+			productRefGroup = 44992A661DCF346C00F3DDD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44992A641DCF346C00F3DDD9 /* Mesosfer-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44992A631DCF346C00F3DDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44992A781DCF346C00F3DDD9 /* LaunchScreen.storyboard in Resources */,
+				44992A751DCF346C00F3DDD9 /* Assets.xcassets in Resources */,
+				44992A731DCF346C00F3DDD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44992A611DCF346C00F3DDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44992A9A1DCF3AEE00F3DDD9 /* RegisterViewController.m in Sources */,
+				44992A971DCF385600F3DDD9 /* UIViewController+Helper.m in Sources */,
+				44992A701DCF346C00F3DDD9 /* ViewController.m in Sources */,
+				44992A6D1DCF346C00F3DDD9 /* AppDelegate.m in Sources */,
+				44992A6A1DCF346C00F3DDD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44992A711DCF346C00F3DDD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44992A721DCF346C00F3DDD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44992A761DCF346C00F3DDD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44992A771DCF346C00F3DDD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44992A7A1DCF346C00F3DDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44992A7B1DCF346C00F3DDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44992A7D1DCF346C00F3DDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mesosfer-ObjC/Mesosfer-ObjC.entitlements";
+				DEVELOPMENT_TEAM = UFZ2D5H3W9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Mesosfer-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyro.Mesosfer-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44992A7E1DCF346C00F3DDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mesosfer-ObjC/Mesosfer-ObjC.entitlements";
+				DEVELOPMENT_TEAM = UFZ2D5H3W9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Mesosfer-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyro.Mesosfer-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44992A601DCF346C00F3DDD9 /* Build configuration list for PBXProject "Mesosfer-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44992A7A1DCF346C00F3DDD9 /* Debug */,
+				44992A7B1DCF346C00F3DDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44992A7C1DCF346C00F3DDD9 /* Build configuration list for PBXNativeTarget "Mesosfer-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44992A7D1DCF346C00F3DDD9 /* Debug */,
+				44992A7E1DCF346C00F3DDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44992A5D1DCF346C00F3DDD9 /* Project object */;
+}
